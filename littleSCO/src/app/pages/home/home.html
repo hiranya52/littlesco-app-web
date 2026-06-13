@@ -104,7 +104,7 @@
     </h1>
 
     <!-- BOTTOM SECTION -->
-    <div class="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center mt-20 px-4 md:px-8">
+    <div class="w-full max-w-6xl flex flex-col md:flex-row justify-between items-center mt-8 px-4 md:px-8">
 
       <!-- LEFT -->
       <div class="flex flex-col items-start mb-8 md:mb-0">
@@ -161,25 +161,25 @@
   </main>
 
   <!-- CURVE CARDS -->
-  <div class="w-full mt-10 relative overflow-hidden h-[400px]">
+  <div class="w-full -mt-24 relative overflow-hidden h-[420px]">
 
     <div
       #scrollContainer
       (scroll)="onScroll()"
-      class="flex w-full h-full overflow-x-auto no-scrollbar snap-x snap-mandatory px-[50vw] items-start pt-10 pb-20 space-x-6 cursor-grab"
+      class="flex w-full h-full overflow-x-auto no-scrollbar snap-x snap-mandatory px-[50vw] items-start pt-4 pb-20 space-x-6 cursor-grab"
     >
 
       <div
         #scrollItem
         *ngFor="let card of cards"
-        class="scroll-item snap-center shrink-0 w-64 h-80 rounded-[2rem] overflow-hidden relative shadow-md"
+        class="scroll-item snap-center shrink-0 w-64 h-80 rounded-[2.5rem] overflow-hidden relative shadow-xl transition-transform duration-500 hover:-translate-y-4"
         [style.background]="card.bg"
       >
 
         <img
           [src]="card.image"
           [alt]="card.alt"
-          class="w-full h-full object-cover opacity-80"
+          class="w-full h-full object-cover opacity-90"
         >
 
       </div>
@@ -189,6 +189,3 @@
   </div>
 
 </div>
-
-
-
