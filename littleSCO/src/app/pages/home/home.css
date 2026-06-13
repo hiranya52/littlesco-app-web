@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800;900&family=Playfair+Display:ital,wght@1,600&display=swap');
+
+:host {
+  display: block;
+  font-family: 'Nunito', sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scroll-item {
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+}
