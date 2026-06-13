@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
   selector: 'app-home',
   imports: [CommonModule],
   templateUrl: './home.html',
-  styleUrl: './home.css',
+  styleUrls: ['./home.css'],
 })
 export class Home implements AfterViewInit{
 
