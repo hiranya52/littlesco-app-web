@@ -15,27 +15,27 @@ export class Home implements AfterViewInit{
 
   cards: ScrollCard[] = [
     {
-      image: 'https://placehold.co/400x500/F2C267/ffffff?text=Child+1',
+      image: 'pic_1.jpg',
       bg: '#F2C267',
       alt: 'Child 1'
     },
     {
-      image: 'https://placehold.co/400x500/F3B3C8/ffffff?text=Child+2',
+      image: 'pic_2.jpg',
       bg: '#F3B3C8',
       alt: 'Child 2'
     },
     {
-      image: 'https://placehold.co/400x500/F0C94F/ffffff?text=Child+3',
+      image: 'pic_3.jpg',
       bg: '#F0C94F',
       alt: 'Child 3'
     },
     {
-      image: 'https://placehold.co/400x500/F099AA/ffffff?text=Child+4',
+      image: 'pic_4.jpg',
       bg: '#F099AA',
       alt: 'Child 4'
     },
     {
-      image: 'https://placehold.co/400x500/E8A359/ffffff?text=Child+5',
+      image: 'pic_5.jpg',
       bg: '#E8A359',
       alt: 'Child 5'
     }
